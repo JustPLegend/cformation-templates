@@ -1,8 +1,0 @@
-AWSTemplateFormatVersion: "2010-09-09"
-Description: "Create S3 bucket and add Bucket policy"
-
-Resources: 
-    S3Bucket:                       #logical id/name
-        Type: AWS::S3::Bucket       #type of resource
-        Properties:
-            BucketName: cf-learning-beginner 
