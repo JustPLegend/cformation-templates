@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: "2010-09-09"
-Description: "PARAMETRI: Template koji omogućuje korisniku da unese ime Bucketa "
+Description: "PARAMETERS: Template where user can insert the name of the Bucket during creating stack"
 
 Parameters: 
     S3BucketName:   
